@@ -83,14 +83,14 @@ article.bespoke-parent {
   align-items: center;
   text-align: center;
   max-width: 800px;
-  max-height: 600px;
+  max-height: 400px;
   position: absolute;
   margin: auto;
   top: 10%;
   left: 10%;
   bottom: 10%;
   right: 10%;
-  background: #eaeaea;
+  background: rgba(145,145,145,0.7);
   padding: 40px;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -229,7 +229,7 @@ li.bespoke-bullet-inactive {
 }
 .emphatic,
 .emphatic .bespoke-slide {
-  background: #eaeaea;
+  background: rgba(145,145,145,0.7);
 }
 pre {
   padding: 26px !important;
@@ -277,7 +277,10 @@ a {
   text-decoration: none;
 }
 .tint {
-  background: rgba(0,0,0,0.7);
+  background: rgba(201,201,201,0.5);
   padding: 30px;
-  color: #fff;
+  color: #606060;
+}
+section.inicio img {
+  width: 30%;
 }
